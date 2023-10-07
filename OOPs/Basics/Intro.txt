@@ -1,0 +1,49 @@
+OOPs in CPP:
+
+Object Oriented Programming System is a programming paradigm that uses abstraction to create models based on the real world environment. OOPs uses several techniques from previously established paradigms, including Modularity, Polymorphism, Encapsulation, and Inheritance. OOPs is a programming language model organized around objects rather than “actions” and data rather than logic. Historically, a program has been viewed as a logical procedure that takes input data, processes it, and produces output data.
+
+There are 4 main pillars of OOPs:
+1. Inheritance : It is the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
+
+2. Polymorphism : It is the ability of an object to take on many forms. The most common use of polymorphism in OOPs occurs when a parent class reference is used to refer to a child class object.
+
+3. Abstraction : It refers to the ability to make a class abstract in OOPs. An abstract class is one that cannot be instantiated. The purpose of an abstract class is to provide an appropriate base class from which other classes can inherit.
+
+4. Encapsulation : It is the mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+
+But before we start with the OOPs in CPP, we need to know about the classes and objects in CPP.
+
+Classes and Objects in CPP:
+
+A class is a user defined data-type which has data members and member functions. Data members are the data variables and member functions are the functions used to manipulate these variables and together these data members and member functions defines the properties and behavior of the objects in a Class.
+
+class student
+{
+    int roll_no;
+    char name[20];
+    float marks;
+};
+
+student s1, s2, s3; // s1, s2, s3 are objects of class student
+
+s1.roll_no = 1; // Accessing members of class student
+s1.name = "Rahul";
+s1.marks = 90.5;
+
+
+---
+
+Object is an instance of a class. When a class is defined, no memory is allocated but when it is instantiated (i.e. an object is created) memory is allocated.
+
+class student
+{
+    int roll_no;
+    char name[20];
+    float marks;
+};
+
+student s1, s2, s3; // s1, s2, s3 are objects of class student
+
+
+A Class is a logical entity while an Object is a physical entity. An Object is an instance of a Class. A Class is a template while an Object is an instance of a Class. A Class does not allocate memory space when it is created but when an Object is instantiated memory is allocated.
