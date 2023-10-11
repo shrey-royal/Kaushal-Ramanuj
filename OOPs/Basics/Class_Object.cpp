@@ -15,6 +15,10 @@ public:
         age = a;
     }
 
+    void printPersonDetails() {
+        cout << "\nName: " << name << "\t" << "Age: " << age << endl;
+    }
+
     //getter and setter methods
     void setName(string n) {
         name = n;
@@ -52,8 +56,8 @@ int main() {
 
     Person p[10];
 
-    cout << "Enter details of 10 people: " << endl;
-    for (int i = 0; i < 10; i++) {
+    cout << "Enter details of 2 people: " << endl;
+    for (int i = 0; i < 2; i++) {
         string name;
         int age;
         cout << "Enter name: ";
@@ -63,16 +67,17 @@ int main() {
         p[i].scanPersonDetails(name, age);
     }
 
-    cout << "Details of 10 people: " << endl;
-    for (int i = 0; i < 10; i++) {
+    cout << "Details of 2 people: " << endl;
+    for (int i = 0; i < 2; i++) {
         p[i].introduce();
     }
 
     //tabular format
-    cout << "Details of 10 people: " << endl;
-    cout << "Name\tAge" << endl;
-    for (int i = 0; i < 10; i++) {
-        cout << p[i].getName() << "\t" << p[i].getAge() << endl;
+    cout << "Details of 2 people: " << endl;
+    // cout << "Name\tAge" << endl;
+    for (int i = 0; i < 2; i++) {
+        // cout << p[i].getName() << "\t" << p[i].getAge() << endl;
+        p[i].printPersonDetails();
     }
 
     return 0;
