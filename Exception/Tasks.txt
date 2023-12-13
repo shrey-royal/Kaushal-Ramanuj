@@ -1,0 +1,24 @@
+1. Division by Zero Exception:
+   Create a simple calculator program that takes two numbers as input from the user and performs division. Implement exception handling to catch the scenario where the user tries to divide by zero and provide a meaningful error message.
+> Test Case 1: Input: numerator = 10, denominator = 2. Expected Output: Quotient = 5.
+> Test Case 2: Input: numerator = 8, denominator = 0. Expected Output: "Error: Division by zero."
+
+2. Invalid Input Exception:
+   Develop a program that asks the user to enter an integer. Use exception handling to catch situations where the user enters a character or a string instead of an integer, providing a message prompting for valid input.
+> Test Case 1: Input: "5". Expected Output: Integer value = 5.
+> Test Case 2: Input: "abc". Expected Output: "Error: Invalid input. Please enter an integer."
+
+3. Array Access Exception:
+   Write a program that defines an array and asks the user for an index to access. Implement exception handling to catch cases where the user enters an index outside the array bounds and handle it gracefully.
+> Test Case 1: Array: [10, 20, 30, 40, 50]. Input index = 2. Expected Output: Value at index 2 is 30.
+> Test Case 2: Array: [5, 8, 12]. Input index = 5. Expected Output: "Error: Index out of bounds."
+
+4. Numeric Conversion Exception:
+   Create a program that prompts the user to enter a numeric value as a string and attempts to convert it to an integer. Use exception handling to manage situations where the string cannot be converted to a valid integer.
+> Test Case 1: Input: "123". Expected Output: Integer value = 123.
+> Test Case 2: Input: "abc". Expected Output: "Error: Invalid input. Please enter a numeric value."
+
+5. Function Exception:
+   Design a function that performs a specific operation on two integers but might encounter an error, such as attempting to perform an undefined operation (e.g., square root of a negative number). Implement exception handling within the function to handle such scenarios.
+> Test Case 1: Input: num1 = 16, num2 = 4. Expected Output: Result = 4 (Square root of 16).
+> Test Case 2: Input: num1 = -9, num2 = 3. Expected Output: "Error: Cannot calculate square root of a negative number."
