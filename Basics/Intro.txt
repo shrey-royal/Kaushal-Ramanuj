@@ -1,0 +1,152 @@
+C   : Procedure Oriented Programming Language
+C++ : Semi-Object Oriented Programming Language
+Java: Pure Object Oriented Programming Language
+
+Java is a platform independent language. It means that we can write and compile the java code in one platform (eg Windows) and can execute the class in any other supported platform eg (Linux,Solaris,etc).
+
+Java is a platform also which means that we can write once and run anywhere.
+
+
+Source Code : .java
+Byte Code   : .class    (Intermediate Code)
+
+to compile the java code we use javac command : javac <filename>.java
+ex: javac Hello.java
+
+to run the java class we use java command : java <classname>
+ex: java Hello
+
+
+There are some rules to save the file name in java.
+
+1. The file name should be same as the public class name.
+2. The Class name should start with a capital letter and should be in camel case and also doesn't contain any special characters or spaces.
+
+class HighSchoolStudent{}  //valid
+class High_School_Student{} //valid
+class High School Student{} //invalid
+class highSchoolStudent{}  //invalid
+class HighschoolStudent{}  //invalid
+
+
+In Every java program there should be atleast one public class.
+
+
+filename: A.java
+public class A {}
+public class B {main}   //error: class B is public, should be declared in a file named B.java
+
+
+Source Code (java file) : Basic.java
+
+javac Basic.java -> Basic.class  (Byte Code)
+
+java Basic (classname) -> Output
+
+Access Modifiers : public, private, protected, default
+1. public : The class, method, variable, constructor declared as public can be accessed from anywhere.
+2. private : The class, method, variable, constructor declared as private can be accessed only within the class.
+3. protected : The class, method, variable, constructor declared as protected can be accessed within the class and outside the class but through inheritance only.
+4. default : The class, method, variable, constructor declared as default can be accessed within the class and outside the class but within the package (same directory) only.
+
+without importing any packagename we can't use the classes of that package.
+
+//c
+struct student {
+    int rollno;
+    char name[20];
+    float marks;
+};
+
+//cPP
+class student {
+public:
+    int rollno;
+    char name[20];
+    float marks;
+};
+
+//jAVA
+class Student {
+    private int rollno;
+    protected String name;
+    public float marks;
+}
+
+System.out.println("Hello World");
+
+System -> class
+out    -> object of PrintStream class
+println() -> method of PrintStream class
+"Hello World" -> String parameter
+
+
+----------------------------------------------------------------------------------
+
+Java is a programming language as well as a platform.
+
+> It is Robust, Highe-level and Object-Oriented programming language.
+
+Q. What is Java?
+A. Java is a programming language as well as a platform. It is Robust, High-level and Object-Oriented programming language. it is also a secured programming language.
+
+> Robust means it is a strong programming language. It is not easy to break the code of java.
+> High-level means it is a user-friendly programming language. It is easy to understand and write the code of java.
+
+> It has strong memory management. It has a garbage collector that collects the unused memory and frees up the memory.
+
+for example, i have 5 functions and i am using only 3 functions. so, the garbage collector will collect the unused memory and free up the memory.
+
+> It is a platform-independent programming language. It means we can run the java program on any platform like Windows, Linux, Mac, etc.
+
+> It is a secured programming language. It has a security manager that checks the code of java and allows the code to run.
+
+-> Java is divided into 3 parts:
+1. Java SE (Standard Edition) : It is used to develop the desktop application.  (Swing, AWT)
+2. Java EE (Enterprise Edition) : It is used to develop the web application.    (JSP, Servlet)
+3. Java ME (Micro Edition) : It is used to develop the mobile application.      (Android)
+
+Q. What is JDK?
+A. JDK stands for Java Development Kit. It contains all the tools and libraries that are required to develop the java application.
+
+Q. What is JRE?
+A. JRE stands for Java Runtime Environment. It contains JRE and some set of libraries that are required to run the java application.
+
+Q. What is JVM?
+A. JVM stands for Java Virtual Machine. It is a virtual machine that is used to run the java application. It is also known as the heart of the java programming language.
+
+Q. What is the difference between JDK, JRE, and JVM?
+A. JDk contains JRE and JVM. whereas JRE contains JVM and some set of libraries. JVM is a virtual machine that is used to run the java application.
+
+Q. Who made Java?
+A. James Gosling made Java in 1995.
+
+Q. History of Java?
+A. In 1991, James Gosling and his team started a project named Green. The main aim of this project was to develop a language for digital devices like set-top boxes, televisions, etc. But, the project was not successful.
+
+> Initially it was called "GreenTalk" by James Gosling, and file extension was ".gt".
+> After that, it was called "Oak" by James Gosling and was developed for handheld devices.
+> In 1995, it was renamed to "Java" by James Gosling and was developed for the internet.
+
+Features of Java:
+
+1. Simple
+2. Object-Oriented
+3. Portable
+4. Platform independent
+5. Secured: It has a security manager that checks the code of java and allows the code to run.
+6. Robust: Strong memory management
+7. Architecture neutral
+8. Interpreted
+9. High Performance
+10. Multithreaded
+11. Distributed
+12. Dynamic
+
+Q. What is the difference between C++ and Java?
+A. C++ is a programming language whereas Java is a programming language as well as a platform.
+> C++ have Pointers whereas Java does not have pointers. (java uses pointers internally)
+> C++ is not a secured programming language whereas Java is a secured programming language.
+> C++ supports operator overloading whereas Java does not support operator overloading.
+> C++ doesn't support Threads it relies on thrird party libraries whereas Java has built-in support for threads.
+> C++ is nearer to hardware whereas java is not so interactive with hardware.
