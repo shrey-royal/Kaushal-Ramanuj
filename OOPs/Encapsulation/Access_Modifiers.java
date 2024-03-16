@@ -1,4 +1,6 @@
-@SuppressWarnings("unused")
+import java.text.DecimalFormat;
+
+// @SuppressWarnings("unused")
 class School {
     public String name;
     private double revenue;
@@ -10,6 +12,9 @@ class School {
         this.name = name;
         this.revenue = revenue;
         this.classRooms = classRooms;
+        DecimalFormat df = new DecimalFormat();
+        df.setMaximumFractionDigits(10);
+        System.out.println(df.format(this.revenue));
     }
 }
 
@@ -22,10 +27,11 @@ class Parent {
 
 public class Access_Modifiers {
     public static void main(String[] args) {
-        School s = new School("ABC", 12000000, 10);
+        School s = new School("ABC", 12000000.2266377, 10);
         Parent p = new Parent();
         p.knowSchool(s);
         // System.out.println(s.revenue);
+
     }
 }
 
