@@ -92,23 +92,9 @@ String tasks:
 
 1. Text Analysis Tool: Develop a tool that analyzes a given text input, providing statistics such as character count, word count, average word length, and frequency of occurrence of certain words or phrases.
 
-2. Password Strength Checker: Create a program that evaluates the strength of a password based on criteria such as length, presence of uppercase letters, lowercase letters, numbers, and special characters.
+2. Text Encryption and Decryption: Create a program that encrypts and decrypts sensitive text data using cryptographic algorithms such as AES or RSA, ensuring secure communication and data storage.
 
-3. Search Engine: Build a simple search engine that accepts a query string and returns relevant documents or web pages based on matching keywords or phrases found within the documents.
-
-4. Data Parsing and Validation: Design a system to parse and validate data from a CSV or XML file, ensuring that each field or element meets certain formatting or validation rules before processing further.
-
-5. Spell Checker: Implement a spell checker that can detect and suggest corrections for misspelled words in a given text, utilizing dictionaries or word lists to identify valid words.
-
-6. URL Shortener: Develop a URL shortening service that generates short, unique identifiers for long URLs, allowing users to share compact links while redirecting to the original URL when accessed.
-
-7. Text Encryption and Decryption: Create a program that encrypts and decrypts sensitive text data using cryptographic algorithms such as AES or RSA, ensuring secure communication and data storage.
-
-8. File Renaming Tool: Build a tool that renames multiple files within a directory based on user-defined patterns or rules, such as adding prefixes or suffixes, replacing certain characters, or reformatting dates.
-
-9. String Comparison and Matching: Develop a utility for comparing strings and identifying similarities or differences between them, including functionality for fuzzy matching or finding common substrings.
-
-10. Text-based Game or Puzzle Solver: Design a text-based game or puzzle solver that involves manipulating strings, such as solving word puzzles, anagrams, or crossword puzzles, providing hints and solutions as needed.
+3. String Comparison and Matching: Develop a utility for comparing strings and identifying similarities or differences between them, including functionality for fuzzy matching or finding common substrings.
 
 Test Cases:
 
@@ -121,41 +107,12 @@ Test Cases:
      - Frequency of "text": 1
      - Frequency of "analysis": 1
 
-2. Password Strength Checker:
-   - Input: "P@ssw0rd"
-   - Expected Output: Strong
-
-3. Search Engine:
-   - Query: "Java String class methods"
-   - Expected Output: Relevant documents or web pages containing information about Java's String class and its methods.
-
-4. Data Parsing and Validation:
-   - Input: CSV file with fields (Name, Age, Email)
-   - Sample Record: "John Doe, 30, john@example.com"
-   - Expected Output: Valid records are parsed and processed; invalid records raise appropriate validation errors.
-
-5. Spell Checker:
-   - Input: "Mistkae in ths sentnce."
-   - Expected Output: "Mistake in this sentence."
-
-6. URL Shortener:
-   - Original URL: "https://www.example.com/very/long/url/to/test/string/class/usage"
-   - Expected Output (Shortened URL): "https://short.url/abc123"
-
-7. Text Encryption and Decryption:
+2. Text Encryption and Decryption:
    - Input: "Sensitive data to be encrypted."
    - Expected Output: Encrypted string using a specified algorithm; decryption should yield the original data.
 
-8. File Renaming Tool:
-   - Input: Directory with files named "file1.txt", "file2.txt", etc.
-   - Expected Output: Files renamed according to user-defined patterns, such as "prefix_file1_suffix.txt".
-
-9. String Comparison and Matching:
+3. String Comparison and Matching:
    - Input: Two strings, "apple" and "aple"
    - Expected Output: Identify differences, suggest "apple" as a correction.
-
-10. Text-based Game or Puzzle Solver:
-    - Input: Word puzzle "C _ T"
-    - Expected Output: Possible solutions such as "CAT", "CUT", etc., based on provided hints.
-
+   
 */
